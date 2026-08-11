@@ -8,7 +8,9 @@ Many agent failures do not come from poor execution. They come from starting bef
 
 `grill-me` is an agent skill for deep clarification before action. Through structured, adaptive batches of questions, it turns fuzzy ideas into conclusions that can be judged, executed, and tested. It works across engineering plans, research ideas, life or strategy decisions, and conceptual arguments.
 
-## Overview
+![](grill-me.svg)
+
+## Features
 
 - Route the conversation by the intended output: engineering, academic research, decision-making, or reflective thinking.
 - Ask focused batches of questions, with recommended answers and concise reasoning.
