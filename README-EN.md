@@ -2,10 +2,6 @@
 
 [English](./README-EN.md) | [中文](./README.md)
 
-**Grill Me**
-
-Many agent failures do not come from poor execution. They come from starting before the problem is clear: the goal is vague, the boundaries are missing, the riskiest assumptions are hidden, and nobody has defined what done means.
-
 `grill-me` is an agent skill for deep clarification before action. Through structured, adaptive batches of questions, it turns fuzzy ideas into conclusions that can be judged, executed, and tested. It works across engineering plans, research ideas, life or strategy decisions, and conceptual arguments.
 
 ![](grill-meEN.svg)
