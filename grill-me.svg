@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">grill-me overview</title>
+  <desc id="desc">grill-me turns fuzzy input into clear output through focused batches of questions across engineering, academic research, decision-making, and reflective thinking scenarios.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f8fb; }
+      .title { fill: #182033; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 44px; font-weight: 700; letter-spacing: 0; }
+      .subtitle { fill: #596276; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 21px; font-weight: 400; letter-spacing: 0; }
+      .card-title { fill: #182033; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 30px; font-weight: 700; letter-spacing: 0; }
+      .card-text { fill: #455066; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 18px; font-weight: 400; letter-spacing: 0; }
+      .scene-title { fill: #182033; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 21px; font-weight: 700; letter-spacing: 0; }
+      .scene-text { fill: #596276; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 15px; font-weight: 400; letter-spacing: 0; }
+      .small-title { fill: #182033; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 0; }
+      .small-text { fill: #596276; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0; }
+      .main-card { fill: #ffffff; stroke: #d7dce8; stroke-width: 2; }
+      .input-card { stroke: #6e7fdb; }
+      .engine-card { stroke: #1f9d8a; }
+      .output-card { stroke: #d9872b; }
+      .scene-card { fill: #ffffff; stroke: #d7dce8; stroke-width: 1.5; }
+      .mode-card { fill: #eef4ff; stroke: #c9d8ff; stroke-width: 1.3; }
+      .dot-blue { fill: #6e7fdb; }
+      .dot-green { fill: #1f9d8a; }
+      .dot-orange { fill: #d9872b; }
+      .dot-purple { fill: #9667d8; }
+      .line { fill: none; stroke: #aeb6c8; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .line-strong { fill: none; stroke: #1f9d8a; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .chip { fill: #f4f6fb; stroke: #d7dce8; stroke-width: 1.2; }
+      .shadow { filter: drop-shadow(0 14px 24px rgba(31, 41, 71, .10)); }
+    </style>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
+      <path d="M 1 1 L 13 7 L 1 13 Z" fill="#1f9d8a"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1200" height="760" rx="0"/>
+  <text class="title" x="600" y="76" text-anchor="middle">grill-me: clarify the problem before you act</text>
+  <text class="subtitle" x="600" y="114" text-anchor="middle">Turns fuzzy ideas into conclusions you can judge, execute, and test</text>
+
+  <g class="shadow">
+    <rect class="scene-card" x="100" y="152" width="220" height="96" rx="16"/>
+    <circle class="dot-blue" cx="132" cy="186" r="10"/>
+    <text class="scene-title" x="158" y="193">Engineering</text>
+    <text class="scene-text" x="132" y="222">Plans, APIs, tests, delivery</text>
+
+    <rect class="scene-card" x="350" y="152" width="220" height="96" rx="16"/>
+    <circle class="dot-green" cx="382" cy="186" r="10"/>
+    <text class="scene-title" x="408" y="193">Research</text>
+    <text class="scene-text" x="382" y="222">Question, contribution, evidence</text>
+
+    <rect class="scene-card" x="630" y="152" width="220" height="96" rx="16"/>
+    <circle class="dot-orange" cx="662" cy="186" r="10"/>
+    <text class="scene-title" x="688" y="193">Decisions</text>
+    <text class="scene-text" x="662" y="222">Options, costs, risks, exits</text>
+
+    <rect class="scene-card" x="880" y="152" width="220" height="96" rx="16"/>
+    <circle class="dot-purple" cx="912" cy="186" r="10"/>
+    <text class="scene-title" x="938" y="193">Thinking</text>
+    <text class="scene-text" x="912" y="222">Claims, concepts, objections</text>
+  </g>
+
+  <path class="line" d="M 210 248 C 210 286, 202 300, 236 320"/>
+  <path class="line" d="M 460 248 C 460 286, 465 300, 478 320"/>
+  <path class="line" d="M 740 248 C 740 286, 735 300, 722 320"/>
+  <path class="line" d="M 990 248 C 990 286, 998 300, 964 320"/>
+
+  <g class="shadow">
+    <rect class="main-card input-card" x="70" y="320" width="300" height="220" rx="22"/>
+    <text class="card-title" x="220" y="374" text-anchor="middle">Fuzzy input</text>
+    <text class="card-text" x="220" y="418" text-anchor="middle">“I want to build a tool”</text>
+    <text class="card-text" x="220" y="449" text-anchor="middle">“Is this research worth doing?”</text>
+    <text class="card-text" x="220" y="480" text-anchor="middle">“Should I choose A or B?”</text>
+    <text class="card-text" x="220" y="511" text-anchor="middle">“Why is my argument unclear?”</text>
+
+    <rect class="main-card engine-card" x="450" y="320" width="300" height="220" rx="22"/>
+    <text class="card-title" x="600" y="374" text-anchor="middle">Questioning engine</text>
+    <text class="card-text" x="600" y="418" text-anchor="middle">Check supplied material first</text>
+    <text class="card-text" x="600" y="449" text-anchor="middle">Ask focused batches</text>
+    <text class="card-text" x="600" y="480" text-anchor="middle">Recommend answers with reasons</text>
+    <text class="card-text" x="600" y="511" text-anchor="middle">Expose assumptions and risks</text>
+
+    <rect class="main-card output-card" x="830" y="320" width="300" height="220" rx="22"/>
+    <text class="card-title" x="980" y="374" text-anchor="middle">Clear output</text>
+    <text class="card-text" x="980" y="418" text-anchor="middle">Locked plan</text>
+    <text class="card-text" x="980" y="449" text-anchor="middle">Research-question map</text>
+    <text class="card-text" x="980" y="480" text-anchor="middle">Decision memo</text>
+    <text class="card-text" x="980" y="511" text-anchor="middle">Argument map</text>
+  </g>
+
+  <path class="line-strong" d="M 370 430 H 436" marker-end="url(#arrow)"/>
+  <path class="line-strong" d="M 750 430 H 816" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect class="mode-card" x="222" y="578" width="244" height="58" rx="14"/>
+    <text class="small-title" x="344" y="602" text-anchor="middle">Material check</text>
+    <text class="small-text" x="344" y="624" text-anchor="middle">Do not ask what is verifiable</text>
+
+    <rect class="mode-card" x="478" y="578" width="244" height="58" rx="14"/>
+    <text class="small-title" x="600" y="602" text-anchor="middle">Living docs</text>
+    <text class="small-text" x="600" y="624" text-anchor="middle">Update CONTEXT / ADR on request</text>
+
+    <rect class="mode-card" x="734" y="578" width="244" height="58" rx="14"/>
+    <text class="small-title" x="856" y="602" text-anchor="middle">Review loop</text>
+    <text class="small-text" x="856" y="624" text-anchor="middle">Reverse-check costly decisions</text>
+  </g>
+
+  <g>
+    <rect class="chip" x="126" y="674" width="180" height="44" rx="22"/>
+    <text class="small-title" x="216" y="702" text-anchor="middle">Goal is clear</text>
+    <rect class="chip" x="324" y="674" width="190" height="44" rx="22"/>
+    <text class="small-title" x="419" y="702" text-anchor="middle">Boundary is clear</text>
+    <rect class="chip" x="532" y="674" width="178" height="44" rx="22"/>
+    <text class="small-title" x="621" y="702" text-anchor="middle">Tradeoffs compared</text>
+    <rect class="chip" x="728" y="674" width="166" height="44" rx="22"/>
+    <text class="small-title" x="811" y="702" text-anchor="middle">Risks exposed</text>
+    <rect class="chip" x="912" y="674" width="220" height="44" rx="22"/>
+    <text class="small-title" x="1022" y="702" text-anchor="middle">Next step is testable</text>
+  </g>
+</svg>
