@@ -16,7 +16,7 @@
 
 ## 安装
 
-仓库发布后，在 agent 对话框（Codex、OpenCode、Claude Code、Kimi Code 等）中执行：
+仓库发布后，在 agent 对话框（Codex/ZCode/Claude Code/OpenCode/Kimi Code 等）中执行：
 
 ```text
 安装 GitHub 仓库 hiDaDeng/grill-me

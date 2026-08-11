@@ -16,7 +16,7 @@
 
 ## Installation
 
-In an agent chat window (Codex, OpenCode, Claude Code, Kimi Code, etc.), run the following command after the repository is published:
+In an agent chat window (Codex/ZCode/Claude Code/OpenCode/Kimi Code, etc.), run the following command:
 
 ```text
 Install GitHub repo hiDaDeng/grill-me.
