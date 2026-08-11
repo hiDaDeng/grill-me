@@ -1,0 +1,6 @@
+interface:
+  display_name: "拷问我"
+  short_description: "分批拷清问题，并按需维护活文档"
+  default_prompt: "使用 $grill-me 分批帮我把这个模糊问题拷清。"
+policy:
+  allow_implicit_invocation: false
