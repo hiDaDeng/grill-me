@@ -4,7 +4,7 @@
 
 `grill-me` 是一个面向智能体的深度澄清技能。它通过结构化、分批、自适应的追问，把模糊想法拷问成可判断、可执行、可检验的结论。适用于工程方案、科研选题、人生/职业/战略决策，以及观点和概念澄清。
 
-![](grill-me.svg)
+![](img/grill-me.svg)
 
 ## 特性
 
@@ -21,15 +21,12 @@
 ```text
 安装 GitHub 仓库 hiDaDeng/grill-me
 ```
+如果想用终端：
 
-本地使用时，也可以把本目录复制到支持的 skills 目录，例如：
-
-```text
-~/.codex/skills/grill-me
-~/.config/opencode/skills/grill-me
-~/.claude/skills/grill-me
-~/.agents/skills/grill-me
 ```
+npx skills add hiDaDeng/grill-me
+```
+
 
 ## 使用
 

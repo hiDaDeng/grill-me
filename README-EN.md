@@ -4,7 +4,7 @@
 
 `grill-me` is an agent skill for deep clarification before action. Through structured, adaptive batches of questions, it turns fuzzy ideas into conclusions that can be judged, executed, and tested. It works across engineering plans, research ideas, life or strategy decisions, and conceptual arguments.
 
-![](grill-meEN.svg)
+![](img/grill-meEN.svg)
 
 ## Features
 
@@ -19,16 +19,14 @@
 In an agent chat window (Codex/ZCode/Claude Code/OpenCode/Kimi Code, etc.), run the following command:
 
 ```text
-Install GitHub repo hiDaDeng/grill-me.
+Please install hiDaDeng/grill-me for me.
+GitHub：https://github.com/hiDaDeng/grill-me
 ```
 
-For local use, copy this directory into a supported skills directory such as:
+If you prefer a terminal:
 
-```text
-~/.codex/skills/grill-me
-~/.config/opencode/skills/grill-me
-~/.claude/skills/grill-me
-~/.agents/skills/grill-me
+```
+npx skills add hiDaDeng/grill-me
 ```
 
 ## Usage
